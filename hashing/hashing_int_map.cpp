@@ -13,6 +13,10 @@ int main(){
         mpp[arr[i]]++;
 
     }
+    //this iteration tells how in order way the counting  has been stored in the map
+    for(auto it:mpp){
+        cout<<it.first<<" --> "<<it.second<<endl;
+    }
     int q;
     cin>>q;
     while(q--){
