@@ -6,7 +6,7 @@ void rotate(vector<int>& arr,int n){
         arr[i-1]=arr[i];
     }
     arr[n-1]=temp;
-    return ;
+    return;
 }
 int main(){
     int n;
