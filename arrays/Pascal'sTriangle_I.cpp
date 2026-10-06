@@ -40,7 +40,7 @@ int value(int r,int c){
         ans=ans*(r-i);
         ans=ans/(i+1);
     }
-    return ans;
+    return ans ;
 }
 int main(){
 
