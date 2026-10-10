@@ -43,6 +43,14 @@ int value(int r,int c){
     return ans ;
 }
 int main(){
+    cout<<"enter the value of r";
+    int r;
+    cin>>r;
+    cout<<"enter the value of c";
+    int c;
+    cin>>c;
+    cout<<value(c,r);
+
 
 
     return 0;
