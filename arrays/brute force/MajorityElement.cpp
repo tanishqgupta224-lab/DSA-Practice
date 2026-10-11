@@ -30,7 +30,13 @@ int majority(vector<int>&arr){
     }
 }
 int main(){
-    vector<int>arr={7,0,0,1,7,7,2,7,7};
+    int n;
+    cin>>n;
+    vector<int>arr(n);
+    for(int i=0;i<n;i++){
+        cin>>arr[i];
+    }
+
     cout<<majority(arr);
 
 
