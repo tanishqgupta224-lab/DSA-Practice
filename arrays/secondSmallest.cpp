@@ -14,20 +14,20 @@ int secsmallest(vector<int>arr,int n){
 
         }
     }
-    return secsmall;
+    return  secsmall;
 
 
 }
 int main(){
-    int n;
-    cin>>n;
-    vector<int>arr(n);
+    int  n;
+    cin>> n;
+    vector<int> arr(n);
     for(int i=0;i<n;i++){
-        cin>>arr[i];
+        cin>>arr[i] ;
 
     }
-    cout<<secsmallest(arr,n);
+    cout <<secsmallest(arr,n ) ;
 
 
-    return 0;
+    return  0;
 }
