@@ -17,7 +17,7 @@ int missing(vector<int>& arr){
     int nsum=(n*(n+1))/2 ;
     int sum=0;
     for(int i=0;i<n;i++){
-        sum+=arr[i];
+        sum+=arr [i];
 
     }
     int miss=nsum-sum;
@@ -27,13 +27,13 @@ int missing(vector<int>& arr){
 
 }
 int main(){
-    int n;
+    int  n;
     cin>>n;
-    vector<int>arr(n);
+    vector <int>arr(n);
     for(int i=0;i<n;i++){
         cin>>arr[i];
     }
-    cout<<missing(arr);
+    cout<<missing (arr);
 
 
     return 0;
