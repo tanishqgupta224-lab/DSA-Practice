@@ -19,15 +19,15 @@ int maxnum(vector<int>& arr){
     }
     return maxi ;
 }
-int main(){
+int main (){
     int n;
     cin>>n;
     vector<int>arr(n);
-    for(int i=0;i<n;i++){
+    for (int i=0;i<n;i++){
         cin>>arr[i];
     }
-    cout<<maxnum(arr);
+    cout <<maxnum(arr);
     
-    return 0;
+    return  0;
 
 }
