@@ -14,14 +14,14 @@ void move(vector<int>& arr){
 }
 int main(){
     int n;
-    cin>>n;
-    vector<int>arr(n);
+    cin>>n ; 
+    vector<int>arr(n) ;
     for(int i=0;i<n;i++){
-        cin>>arr[i];
+        cin>>arr[i]  ;
     }
     move(arr);
     for(int k=0;k<n;k++){
-        cout<<arr[k]<<" ";
+        cout<<arr[k]<<" " ;
     }
     
     return 0;
