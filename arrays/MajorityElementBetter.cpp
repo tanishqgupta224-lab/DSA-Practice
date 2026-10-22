@@ -16,10 +16,10 @@ int majorityn(vector<int>&arr){
     }
     for(auto it:mpp){
         if(it.second>(n/2) ){
-            return it.first;
+            return it.first ;
         }
     }
-    return -1;
+    return -1 ;
 
 
 }
