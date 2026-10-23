@@ -12,22 +12,19 @@
 // The number 7 appears 5 times in the 9 sized array
 #include<bits/stdc++.h>
 using namespace std;
-int majority(vector<int>&arr){
+int major(vector<int>&arr){
     int n=arr.size();
     for(int i=0;i<n;i++){
-        int major=0;
+        int count=0;
         for(int j=0;j<n;j++){
             if(arr[i]==arr[j]){
-                major++;
+                count++;
             }
-        if(major>(n/2)){
-            return arr[i];
+            if(count>n/2)return arr[i];
         }
-        
-        }
-        return -1;
 
     }
+    return -1;
 }
 int main(){
     int n;
@@ -36,9 +33,7 @@ int main(){
     for(int i=0;i<n;i++){
         cin>>arr[i];
     }
-
-    cout<<majority(arr);
-
+    cout<<major(arr);
 
     return 0;
 }
