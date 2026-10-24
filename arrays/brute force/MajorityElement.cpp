@@ -14,13 +14,13 @@
 using namespace std;
 int major(vector<int>&arr){
     int n=arr.size();
-    for(int i=0;i<n;i++){
+    for(int i=0;i<n;i++) {
         int count=0;
-        for(int j=0;j<n;j++){
+        for (int j=0;j<n;j++){
             if(arr[i]==arr[j]){
                 count++;
             }
-            if(count>n/2)return arr[i];
+            if (count>n/2)return arr[i];
         }
 
     }
