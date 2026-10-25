@@ -8,8 +8,8 @@ int slargest(vector<int>arr,int n){
             slarge=largest;
             largest=arr[i];
         }
-        else if(arr[i]>slarge && arr[i]!=largest){
-            slarge=arr[i];
+        else if(arr[i]>slarge && arr[i]!=largest) {
+            slarge=arr[ i];
         }
     }
     
