@@ -5,8 +5,8 @@ int slargest(vector<int>arr,int n){
     int slarge=-1;
     for(int i=0;i<n;i++){
         if(arr[i]>largest){
-            slarge=largest;
-            largest=arr[i];
+            slarge=largest ;
+            largest=arr[i] ;
         }
         else if(arr[i]>slarge && arr[i]!=largest) {
             slarge=arr[ i];
