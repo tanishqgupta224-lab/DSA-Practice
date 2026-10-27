@@ -5,16 +5,16 @@ int  dup(vector<int>& arr){
     int i=0;
     for(int j=1;j<n;j++){
         if(arr[j]!=arr[i]){
-            arr[i+1]=arr[j];
-            i++;
+            arr[i+1]=arr[j] ;
+            i++ ;
         }
 
     }
-    return i+1;
+    return i+1 ;
 
 }
 int main(){
-    int n;
+    int n ;
     cin>>n;
     vector<int>arr(n);
     for(int i=0;i<n;i++){
