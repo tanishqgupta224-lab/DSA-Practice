@@ -11,7 +11,7 @@ vector<int>result(vector<int>&a1,vector<int>&a2){
             i++;
         }
         else if(a1[i]>a2[j]){
-            j++;
+            j++ ;
         }
         else{
             ans.push_back(a1[i]);

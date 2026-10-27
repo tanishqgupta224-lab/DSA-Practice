@@ -33,8 +33,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 int value(int r,int c){
-    int ans=1;
-    r=r-1;
+    int ans=1 ;
+    r=r-1 ;
     c=c-1;
     for(int i=0;i<c;i++){
         ans=ans*(r-i) ;
