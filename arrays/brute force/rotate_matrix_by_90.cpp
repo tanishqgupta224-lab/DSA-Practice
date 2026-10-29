@@ -18,7 +18,6 @@ void rotation(vector<vector<int>>&matrix){
             ans[j][n-1-i]=matrix[i][j];
         }
     }
-    matrix=ans;
 }
 int main(){
     int n;
@@ -30,5 +29,6 @@ int main(){
         }
 
     }
+    return 0;
 
 }
