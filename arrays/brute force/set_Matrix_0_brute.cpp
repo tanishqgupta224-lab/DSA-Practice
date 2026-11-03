@@ -39,7 +39,7 @@ void setZeroes(vector<vector<int>>&matrix){
     for(int i=0;i<n;i++){
         for(int j=0;j<m;j++){
            markRow(matrix,n,m,i);
-            markCol(matrix,n,m,j);
+           markCol(matrix,n,m,j);
 
         }
     }
