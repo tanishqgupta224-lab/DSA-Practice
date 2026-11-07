@@ -13,8 +13,8 @@
 //TWO POINTER APPROACH:-
 #include<bits/stdc++.h>
 using namespace std;
-vector<int>Twosum(vector<int>&nums,int target){
-    int n=nums.size();
+vector<int>Twosum(vector<int>&nums,int target) {
+    int n=nums.size() ;
     //create a pair of array
     vector<pair<int,int>>arr(n);
     for(int i=0;i<n;i++){
