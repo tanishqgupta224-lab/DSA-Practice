@@ -7,7 +7,7 @@ int largestnum(int arr[],int n){
             largest=arr[i];
         }
     }
-    return largest;
+    return largest ;
 }
     
 
@@ -16,10 +16,10 @@ int main(){
     int n;
     cin>>n;
     int arr[n];
-    for(int i=0;i<n;i++){
-        cin>>arr[i];
+    for(int i=0;i<n;i++ ){
+        cin>>arr[i] ;
     }
-    cout<<largestnum(arr,n);
+    cout<<largestnum(arr,n) ;
     
     return 0;
 }
