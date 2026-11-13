@@ -21,9 +21,9 @@ vector<vector<int>>ThreeSum(vector<int>&nums){
     set<vector<int>>stt;
     for(int i=0;i<n;i++){
         set<int>hashset;
-        for(int j=i+1;j<n;j++){ 
-            int third=-(nums[i]+nums[j]);
-            if(hashset.find(third)!=hashset.end()){
+        for(int j=i+1;j<n;j++ ){ 
+            int third=-(nums[i] +nums[j]);
+            if(hashset.find(third)!=hashset.end() ){
                 vector<int>temp={nums[i],nums[j],third};
                 sort(temp.begin(),temp.end());
                 stt.insert(temp);
