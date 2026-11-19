@@ -29,7 +29,7 @@ vector<vector<int>>foursum(vector<int>&nums,int target){
                     st.insert(temp);
                 }
                 
-                hashset.insert(nums[k]);
+                hashset.insert(nums[k]) ;
             }
         }
     }
