@@ -27,11 +27,11 @@ void sortColor(vector<int>&nums){
             low++;
         }
         else if(nums[mid]==1){
-            mid++;
+            mid++ ;
 
         }
         else{
-            swap(nums[mid],nums[high]);
+            swap(nums[mid],nums[high]) ;
             high--;
 
         }
