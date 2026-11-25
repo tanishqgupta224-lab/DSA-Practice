@@ -11,9 +11,9 @@
 
 // 2 is the rightmost element, 3 is the largest element in the index range [3, 5], 5 is the largest element in the index range [2, 5]
 #include<bits/stdc++.h>
-using namespace std;
+using namespace std ;
 vector<int> leader(vector<int>&arr){
-    int n=arr.size ();
+    int n=arr.size () ;
     vector<int>ans ;
     int maxi=INT_MIN;
     for(int i=n-1;i>=0;i--) {
