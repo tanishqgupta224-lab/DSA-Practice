@@ -5,7 +5,7 @@
 // 7 8 9 10 
 // 11 12 13 14 15
 #include<iostream>
-using namespace std;
+using namespace  std;
 void pat15(int n){
     int k=1;
     for(int i=1;i<=n;i++){
